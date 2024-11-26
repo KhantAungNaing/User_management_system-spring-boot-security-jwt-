@@ -1,0 +1,40 @@
+# Ignore help file
+HELP.md
+
+# Ignore target directories
+target/
+
+# Allow maven wrapper jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Allow target directories in specific locations
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS (Spring Tool Suite) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
